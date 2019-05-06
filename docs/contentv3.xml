@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="6" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="Diagnóstico gerontológico regional"></unicode>
@@ -84,22 +84,201 @@ Los datos abiertos que proporcionan las instituciones de gobierno y el lenguaje 
   <string role="key" value="_name"></string>
   <unicode value="Dxgereontologico"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="11"></int>
+  <int value="13"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="12"></int>
+  <int value="13"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
-   <instance class="exe.engine.node.Node" reference="6">
+   <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
      <unicode value="Inicio"></unicode>
      <string role="key" value="idevices"></string>
-     <list></list>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="2">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="1"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value=""></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list></list>
+            <string role="key" value="idevice"></string>
+            <reference key="2"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="0"></int>
+          <string role="key" value="parentNode"></string>
+          <none></none>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="11"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="5">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="4"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;p&gt;El número de personas ancianas que viven solas y en franca vulnerabilidad social está aumentando, es importante conocer el contexto geográfico y ambiental en el que se encuentran.&lt;br /&gt;Los diagnósticos de salud que realizan las dependencias oficiales proporcionan información a nivel federal, estatal o municipal aunque existe información a nivel de área geográfica básica (AGEB) o de manzana por lo que es posible conocer el envejecimiento de la población en otras escalas espaciales como sería a través de la agrupación por colonias, por zonas delimitadas por el usuario u otras tal y como lo propone la Geografía gerontológica. &lt;br /&gt;Los datos abiertos que proporcionan las instituciones de gobierno y el lenguaje R hace posible que estos estudios puedan ser replicados en otras zonas y la creación de investigación reproducible.&lt;/p&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list></list>
+            <string role="key" value="idevice"></string>
+            <reference key="5"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="0"></int>
+          <string role="key" value="parentNode"></string>
+          <none></none>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="12"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="1"></reference>
+     <reference key="6"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -114,184 +293,10 @@ Los datos abiertos que proporcionan las instituciones de gobierno y el lenguaje 
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="4">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="CONAPO"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Free Text"></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="The majority of a learning resource will be 
-establishing context, delivering instructions and providing general information.
-This provides the framework within which the learning activities are built and 
-delivered."></unicode>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="childs"></string>
-           <list></list>
-           <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="3">
-            <dictionary>
-             <string role="key" value="_id"></string>
-             <int value="85"></int>
-             <string role="key" value="_idevice"></string>
-             <reference key="2"></reference>
-             <string role="key" value="_instruc"></string>
-             <unicode value="Use this field to enter text. This 
-iDevice has no emphasis applied although limited formatting can be applied to 
-text through the text editing buttons associated with the field."></unicode>
-             <string role="key" value="_name"></string>
-             <unicode value="Free Text"></unicode>
-             <string role="key" value="anchor_names"></string>
-             <list></list>
-             <string role="key" value="anchors_linked_from_fields"></string>
-             <dictionary></dictionary>
-             <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://coepla.zacatecas.gob.mx/wp-content/uploads/2019/02/Proyecciones-de-poblaci%C3%B3n-Parte-2.pdf&quot;&gt;http://coepla.zacatecas.gob.mx/wp-content/uploads/2019/02/Proyecciones-de-poblaci%C3%B3n-Parte-2.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/Proyeccion2016_2050.PNG&quot; alt=&quot;Pirámide de Población&quot; title=&quot;Proyección 2016 y 2015&quot; width=&quot;900&quot; height=&quot;652&quot; /&gt;&lt;/p&gt;"></unicode>
-             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-             <int value="4"></int>
-             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-             <int value="3"></int>
-             <string role="key" value="htmlTag"></string>
-             <string value="div"></string>
-             <string role="key" value="images"></string>
-             <instance class="exe.engine.galleryidevice.GalleryImages">
-              <dictionary>
-               <string role="key" value=".listitems"></string>
-               <list>
-                <instance class="exe.engine.galleryidevice.GalleryImage">
-                 <dictionary>
-                  <string role="key" value="_caption"></string>
-                  <instance class="exe.engine.field.TextField">
-                   <dictionary>
-                    <string role="key" value="_id"></string>
-                    <int value="160"></int>
-                    <string role="key" value="_idevice"></string>
-                    <none></none>
-                    <string role="key" value="_instruc"></string>
-                    <string value=""></string>
-                    <string role="key" value="_name"></string>
-                    <string value=""></string>
-                    <string role="key" value="content"></string>
-                    <string value=""></string>
-                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                    <int value="4"></int>
-                   </dictionary>
-                  </instance>
-                  <string role="key" value="_id"></string>
-                  <unicode value="10_85.0"></unicode>
-                  <string role="key" value="_imageResource"></string>
-                  <instance class="exe.engine.resource.Resource" reference="5">
-                   <dictionary>
-                    <string role="key" value="_idevice"></string>
-                    <reference key="2"></reference>
-                    <string role="key" value="_package"></string>
-                    <reference key="1"></reference>
-                    <string role="key" value="_storageName"></string>
-                    <string value="Proyeccion2016_2050.PNG"></string>
-                    <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\claudi~1.gue\\appdata\\local\\temp\\tmpok9yls.eXe\\previews\\allyourbase\\Proyeccion2016_2050.PNG"></string>
-                    <string role="key" value="checksum"></string>
-                    <string value="a24dcafaca597ed28aed2c834c833ea3"></string>
-                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                    <int value="2"></int>
-                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                    <int value="2"></int>
-                    <string role="key" value="warningMsg"></string>
-                    <string value=""></string>
-                   </dictionary>
-                  </instance>
-                  <string role="key" value="_parent"></string>
-                  <reference key="3"></reference>
-                  <string role="key" value="_thumbnailResource"></string>
-                  <none></none>
-                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                  <int value="3"></int>
-                  <string role="key" value="makeThumbnail"></string>
-                  <bool value="0"></bool>
-                 </dictionary>
-                </instance>
-               </list>
-               <string role="key" value="idevice"></string>
-               <reference key="3"></reference>
-              </dictionary>
-             </instance>
-             <string role="key" value="intlinks_to_anchors"></string>
-             <dictionary></dictionary>
-             <string role="key" value="nextImageId"></string>
-             <int value="1"></int>
-             <string role="key" value="parentNode"></string>
-             <reference key="4"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
-           <int value="7"></int>
-           <string role="key" value="icon"></string>
-           <string value=""></string>
-           <string role="key" value="id"></string>
-           <unicode value="10"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parent"></string>
-           <none></none>
-           <string role="key" value="parentNode"></string>
-           <reference key="4"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="type"></string>
-           <none></none>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list>
-            <reference key="5"></reference>
-           </list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="1"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="1"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:CONAPO"></string>
-        <string role="key" value="parent"></string>
-        <reference key="6"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
       <instance class="exe.engine.node.Node" reference="9">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Indicadores Envejecimiento"></unicode>
+        <unicode value="CONAPO"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="7">
@@ -327,11 +332,197 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Indicadores Demográficos&lt;/p&gt;
+             <unicode content="true" value="&lt;p&gt;La caída de la fecundidad es una de las principales características de la transformación demográfica regional por la adopción de prácticas culturales de comportamiento compatible con el ideal de familias más pequeñas favorecida por la disponibilidad de procedimientos anticonceptivos, y la inserción de las mujeres en el mundo laboral y no sólo en el hogar.&lt;/p&gt;
+&lt;p&gt;El descenso de la mortalidad debido al mejoramiento de las condiciones de vida, mayor nivel educativo, políticas de salud exitosa y un avance sin precedentes en el control de las enfermedades infecciosas, han hecho constante el aumento de la esperanza de vida, de 59 años entre 1965 y 1970 a casi 76 años entre 2015 y 2020.&lt;/p&gt;
+&lt;p&gt;La confluencia de la mortalidad, la fecundidad y la migración, la esperanza de vida son parte de lo que estructura la población por edad, así es que la edad media de la población aumenta de 30.5 años en 2016 hasta 39.5 años en 2050.&lt;/p&gt;
+&lt;p&gt;El envejecimiento de la población se puede ver cuando se contrastan las pirámides de edades, hay una pérdida neta de 6.8 millones de niños y jóvenes menores de quince años, equiparada con la ganancia de 7.08 millones en la primeras ocho edades de la senectud (60 a 67 años)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/Proyeccion2016_2050.PNG&quot; alt=&quot;Pirámide de Población&quot; title=&quot;Proyección 2016 y 2015&quot; width=&quot;900&quot; height=&quot;652&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://coepla.zacatecas.gob.mx/wp-content/uploads/2019/02/Proyecciones-de-poblaci%C3%B3n-Parte-2.pdf&quot; title=&quot;Proyecciones CONAPO&quot;&gt;http://coepla.zacatecas.gob.mx/wp-content/uploads/2019/02/Proyecciones-de-poblaci%C3%B3n-Parte-2.pdf&lt;/a&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="160"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="10_85.0"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="10">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="7"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="6"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="Proyeccion2016_2050.PNG"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\claudi~1.gue\\appdata\\local\\temp\\tmpok9yls.eXe\\previews\\allyourbase\\Proyeccion2016_2050.PNG"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="a24dcafaca597ed28aed2c834c833ea3"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="8"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="8"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="1"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="9"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="10"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="9"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="10"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="6"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:CONAPO"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Indicadores Envejecimiento"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="12">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="11"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Entre los indicadores de envejecimiento tenemos de acuerdo a la Comisión Económica para América Latina y el Caribe (CEPAL)&lt;/p&gt;
+&lt;p&gt;Indicadores Demográficos&lt;/p&gt;
 &lt;p&gt;ÍNDICE DE ENVEJECIMIENTO DE LA POBLACIÓN (O RELACIÓN VIEJOSJÓVENES): Es el cociente entre la población 65 años y más y la población de menores de 15 años de edad. En estudios sobre envejecimiento poblacional suele utilizarse como el cociente entre la población 60 años y más y la población de menores de 15 años de edad&lt;/p&gt;
 &lt;p&gt;RELACIÓN DE APOYO POTENCIAL: Es una alternativa numérica para expresar la relación entre las personas potencialmente económicamente activas y las personas potencialmente dependientes. Es el cociente entre la población entre 15 a 59 años de edad y la población de 60 años y más, o sea, la inversa de la relación de dependencia de la población de 60 y más años de edad.&lt;/p&gt;
 &lt;p&gt;RELACIÓN DE DEPENDENCIA (DEMOGRÁFICA): Es la medida comúnmente utilizada para medir la necesidad potencial de soporte social de la población en edades inactivas por parte de la población en edades activas. Es el cociente entre la suma de los grupos de población de menos de 15 y de 65 y más años de edad y la población de 15 a 64 años de edad. En estudios sobre envejecimiento poblacional suele utilizarse como el cociente entre la suma de los grupos de población de menos de 15 y de 60 y más años de edad y la población de 15 a 59 años de edad.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;RELACIÓN DE DEPENDENCIA (DEMOGRÁFICA): Es la medida comúnmente utilizada para medir la necesidad potencial de soporte social de la población en edades inactivas por parte de la población en edades activas. Es el cociente entre la suma de los grupos de población de menos de 15 y de 65 y más años de edad y la población de 15 a 64 años de edad. En estudios sobre envejecimiento poblacional suele utilizarse como el cociente entre la suma de los grupos de población de menos de 15 y de 60 y más años de edad y la población de 15 a 59 años de edad.&lt;/p&gt;
+&lt;p&gt;RELACIÓN DE DEPENDENCIA DEMOGRÁFICA DE LA POBLACIÓN DE 60 Y MÁS AÑOS DE EDAD: Es la medida utilizada para medir la necesidad potencial de soporte social de la población de adultos mayores por parte de la población en edad activa. Es el cociente entre la población de 60 y más años de edad y la población de 15 a 59 años de edad.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Países &lt;/p&gt;
+&lt;p&gt;Hay países que ya&lt;br /&gt;presentan una mayor proporción de personas de 60 años y más que de niños&lt;br /&gt;menores de 15 años:&lt;/p&gt;
+&lt;p&gt;Así, en 2065&lt;br /&gt;todos los países de la región habrán invertido la tendencia y la proporción&lt;br /&gt;de personas mayores será superior a la de los niños.&lt;/p&gt;
+&lt;p&gt;el comportamiento de estas ondas de la población por edad tiene&lt;br /&gt;implicaciones importantes sobre las demandas y ofertas económicas y&lt;br /&gt;sociales. De allí la relevancia de su análisis como elemento clave para el&lt;br /&gt;diseño de políticas públicas.  (Asilos, guarderías.... escuela primaria casas de día....)&lt;/p&gt;
+&lt;p&gt;TASA GLOBAL DE FECUNDIDAD:&lt;br /&gt;Es el número promedio de hijos que tendría una mujer de una cohorte hipotética de&lt;br /&gt;mujeres que durante su vida fértil tuvieran sus hijos de acuerdo con las tasas de&lt;br /&gt;fecundidad por edad del período de estudio y no estuvieran sometidas a riesgos de&lt;br /&gt;mortalidad desde el nacimiento hasta la finalización del período fértil.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -346,7 +537,7 @@ text through the text editing buttons associated with the field."></unicode>
                <string role="key" value=".listitems"></string>
                <list></list>
                <string role="key" value="idevice"></string>
-               <reference key="8"></reference>
+               <reference key="12"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
@@ -354,7 +545,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="9"></reference>
+             <reference key="13"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -374,7 +565,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="9"></reference>
+           <reference key="13"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -391,7 +582,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="2"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="6"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -401,12 +592,12 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Inicio:Indicadores%20Envejecimiento"></string>
         <string role="key" value="parent"></string>
-        <reference key="6"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="16">
+         <instance class="exe.engine.node.Node" reference="21">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Datos Censales"></unicode>
@@ -415,7 +606,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="_id"></string>
            <unicode value="9"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="6"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -425,14 +616,14 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:Inicio:Indicadores%20Envejecimiento:Datos%20Censales"></string>
            <string role="key" value="parent"></string>
-           <reference key="9"></reference>
+           <reference key="13"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="10">
+         <instance class="exe.engine.node.Node" reference="15">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Consideraciones de Cálculo"></unicode>
@@ -441,7 +632,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="_id"></string>
            <unicode value="11"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="6"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -451,7 +642,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:Inicio:Indicadores%20Envejecimiento:Consideraciones%20de%20C%C3%A1lculo"></string>
            <string role="key" value="parent"></string>
-           <reference key="9"></reference>
+           <reference key="13"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -461,7 +652,7 @@ text through the text editing buttons associated with the field."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="11">
+      <instance class="exe.engine.node.Node" reference="14">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="AGEBs"></unicode>
@@ -470,7 +661,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="3"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="6"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -480,14 +671,41 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Inicio:AGEBs"></string>
         <string role="key" value="parent"></string>
-        <reference key="6"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
-        <list></list>
+        <list>
+         <instance class="exe.engine.node.Node" reference="16">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Proporción de +60/-15"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="12"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="6"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Inicio:AGEBs:Proporci%C3%B3n%20de%20%2B60/-15"></string>
+           <string role="key" value="parent"></string>
+           <reference key="14"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="12">
+      <instance class="exe.engine.node.Node" reference="17">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Colonias"></unicode>
@@ -496,7 +714,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="4"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="6"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -506,14 +724,14 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Inicio:Colonias"></string>
         <string role="key" value="parent"></string>
-        <reference key="6"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="13">
+      <instance class="exe.engine.node.Node" reference="18">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Zonas acotadas"></unicode>
@@ -522,7 +740,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="5"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="6"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -532,14 +750,14 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Inicio:Zonas%20acotadas"></string>
         <string role="key" value="parent"></string>
-        <reference key="6"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="14">
+      <instance class="exe.engine.node.Node" reference="19">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Asistencia Social"></unicode>
@@ -548,7 +766,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="6"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="6"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -558,14 +776,14 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Inicio:Asistencia%20Social"></string>
         <string role="key" value="parent"></string>
-        <reference key="6"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="15">
+      <instance class="exe.engine.node.Node" reference="20">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Programas de Gobierno"></unicode>
@@ -574,7 +792,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="8"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="6"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -584,7 +802,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Inicio:Programas%20de%20Gobierno"></string>
         <string role="key" value="parent"></string>
-        <reference key="6"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
@@ -595,23 +813,25 @@ text through the text editing buttons associated with the field."></unicode>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="4"></reference>
-   <unicode role="key" value="11"></unicode>
-   <reference key="10"></reference>
-   <unicode role="key" value="2"></unicode>
    <reference key="9"></reference>
-   <unicode role="key" value="3"></unicode>
-   <reference key="11"></reference>
-   <unicode role="key" value="4"></unicode>
-   <reference key="12"></reference>
-   <unicode role="key" value="5"></unicode>
-   <reference key="13"></reference>
-   <unicode role="key" value="6"></unicode>
-   <reference key="14"></reference>
-   <unicode role="key" value="8"></unicode>
+   <unicode role="key" value="11"></unicode>
    <reference key="15"></reference>
-   <unicode role="key" value="9"></unicode>
+   <unicode role="key" value="12"></unicode>
    <reference key="16"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="13"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="18"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="19"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="20"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="21"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -624,7 +844,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="compatibleWithVersion9"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="13"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1869,11 +2089,11 @@ Los datos abiertos que proporcionan las instituciones de gobierno y el lenguaje 
   <dictionary>
    <string role="key" value="a24dcafaca597ed28aed2c834c833ea3"></string>
    <list>
-    <reference key="5"></reference>
+    <reference key="10"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
-  <reference key="6"></reference>
+  <reference key="3"></reference>
   <string role="key" value="scolinks"></string>
   <bool value="0"></bool>
   <string role="key" value="scowsinglepage"></string>
