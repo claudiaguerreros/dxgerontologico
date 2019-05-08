@@ -39,6 +39,7 @@
    <li><a href="zonas_acotadas.html" class="no-ch">Zonas acotadas</a></li>
    <li><a href="asistencia_social.html" class="no-ch">Asistencia Social</a></li>
    <li><a href="programas_de_gobierno.html" class="no-ch">Programas de Gobierno</a></li>
+   <li><a href="conclusiones.html" class="no-ch">Conclusiones</a></li>
 </ul>
 </nav>
 <div id='topPagination'>
@@ -49,6 +50,16 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">Consideraciones de Cálculo</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id14">
+<div class="iDevice emphasis0">
+<div id="ta14_85" class="block iDevice_content">
+<p># ÍNDICE DE ENVEJECIMIENTO DE LA POBLACIÓN (O RELACIÓN VIEJOS JÓVENES):<br />#Es el cociente entre la población 65 años y más y la población de menores de 15<br />#años de edad. En estudios sobre envejecimiento poblacional suele utilizarse como el<br />#cociente entre la población 60 años y más y la población de menores de 15 años de<br />#edad. <br />basemapa$ienv&lt;-basemapa$p_65_masn/(basemapa$pobtotn-basemapa$p_15ymasn)</p>
+<p>RELACIÓN DE APOYO POTENCIAL:</p>
+<p>Es el cociente entre la población entre 15 a 59 años de edad y la<br />#población de 60 años y más, o sea, la inversa de la relación de dependencia de la<br />#población de 60 y más años de edad. <br />basemapa$pob15a59&lt;-basemapa$p_15ymasn-basemapa$p_60ymasn</p>
+<p>#RELACIÓN DE DEPENDENCIA (DEMOGRÁFICA):<br />#Es la medida comúnmente utilizada para medir la necesidad potencial de soporte<br />#social de la población en edades inactivas por parte de la población en edades<br />#activas. Es el cociente entre la suma de los grupos de población de menos de 15 y<br />#de 65 y más años de edad y la población de 15 a 64 años de edad. En estudios<br />#sobre envejecimiento poblacional suele utilizarse como el cociente entre la suma de<br />#los grupos de población de menos de 15 y de 60 y más años de edad y la población<br />#de 15 a 59 años de edad. <br />basemapa$pobmen15&lt;-basemapa$pob_014n<br />basemapa$indepdem&lt;-ifelse (basemapa$pob15_64n ==0, 0, (basemapa$pobmen15+basemapa$pob65_masn)/basemapa$pob15_64n)<br />#RELACIÓN DE DEPENDENCIA DEMOGRÁFICA DE LA POBLACIÓN DE 60 Y<br />#MÁS AÑOS DE EDAD:<br />#Es la medida utilizada para medir la necesidad potencial de soporte social de la<br />#población de adultos mayores por parte de la población en edad activa. Es el <br />#cociente entre la población de 60 y más años de edad y la población de 15 a 59<br />#años de edad. <br />basemapa$reladep&lt;-ifelse (basemapa$pob15a59 ==0, 0, basemapa$p_60ymasn/basemapa$pob15a59)</p>
+</div>
+</div>
+</article>
 <div id="packageLicense" class="cc cc-by-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
 </div>
