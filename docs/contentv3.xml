@@ -1309,7 +1309,10 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;td&gt;Centros del sector público dedicados a la atención y cuidado diurno de ancianos y personas con discapacidad &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;"></unicode>
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://claudiaguerreros.github.io/dxgerontologico/denueanc.html&quot; target=&quot;_blank&quot; title=&quot;Asilos, centros y residencias (alojamiento y casas de día&amp;gt;) &quot; rel=&quot;noopener&quot;&gt;https://claudiaguerreros.github.io/dxgerontologico/denueanc.html&lt;/a&gt;&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1389,7 +1392,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
            <int value="3"></int>
            <string role="key" value="height"></string>
-           <unicode value="300"></unicode>
+           <unicode value="800"></unicode>
            <string role="key" value="icon"></string>
            <string value=""></string>
            <string role="key" value="id"></string>
