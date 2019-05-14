@@ -82,9 +82,9 @@ Los datos abiertos que proporcionan las instituciones de gobierno y el lenguaje 
    <unicode value="Unidad"></unicode>
   </list>
   <string role="key" value="_name"></string>
-  <unicode value="Dxgereontologico"></unicode>
+  <unicode value="Dxgerontologico"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="43"></int>
+  <int value="44"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="18"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -1075,6 +1075,53 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="icon"></string>
            <string value=""></string>
            <string role="key" value="id"></string>
+           <unicode value="43"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="18"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="url"></string>
+           <unicode value="https://www.inegi.org.mx/app/buscador/default.html?q=envejecimiento#tabMCcollapse-Indicadores"></unicode>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="External Web Site"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The external website iDevice loads an external website 
+into an inline frame in your eXe content rather then opening it in a popup box. 
+This means learners are not having to juggle windows. 
+This iDevice should only be used if your content 
+will be viewed by learners online."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_urlInstruc"></string>
+           <unicode value="Enter the URL you wish to display
+and select the size of the area to display it in."></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="height"></string>
+           <unicode value="800"></unicode>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
            <unicode value="40"></unicode>
            <string role="key" value="lastIdevice"></string>
            <bool value="0"></bool>
@@ -1087,7 +1134,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="url"></string>
-           <unicode value="https://claudiaguerreros.github.io/dxgerontologico/Coahuila.html"></unicode>
+           <unicode value="https://claudiaguerreros.github.io/dxgerontologico/coahuilaenv.html"></unicode>
            <string role="key" value="userResources"></string>
            <list></list>
            <string role="key" value="version"></string>
@@ -5822,7 +5869,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="compatibleWithVersion9"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="17"></reference>
+  <reference key="18"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
