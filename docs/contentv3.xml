@@ -1115,7 +1115,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="icon"></string>
            <string value=""></string>
            <string role="key" value="id"></string>
-           <unicode value="43"></unicode>
+           <unicode value="40"></unicode>
            <string role="key" value="lastIdevice"></string>
            <bool value="0"></bool>
            <string role="key" value="originalicon"></string>
@@ -1127,7 +1127,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="url"></string>
-           <unicode value="https://www.inegi.org.mx/app/buscador/default.html?q=envejecimiento#tabMCcollapse-Indicadores"></unicode>
+           <unicode value="https://claudiaguerreros.github.io/dxgerontologico/edocoah.html"></unicode>
            <string role="key" value="userResources"></string>
            <list></list>
            <string role="key" value="version"></string>
@@ -1158,11 +1158,11 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
            <int value="3"></int>
            <string role="key" value="height"></string>
-           <unicode value="800"></unicode>
+           <unicode value="500"></unicode>
            <string role="key" value="icon"></string>
            <string value=""></string>
            <string role="key" value="id"></string>
-           <unicode value="40"></unicode>
+           <unicode value="43"></unicode>
            <string role="key" value="lastIdevice"></string>
            <bool value="0"></bool>
            <string role="key" value="originalicon"></string>
@@ -1174,7 +1174,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="url"></string>
-           <unicode value="https://claudiaguerreros.github.io/dxgerontologico/edocoah.html"></unicode>
+           <unicode value="https://www.inegi.org.mx/app/buscador/default.html?q=envejecimiento#tabMCcollapse-Indicadores"></unicode>
            <string role="key" value="userResources"></string>
            <list></list>
            <string role="key" value="version"></string>
