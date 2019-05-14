@@ -1,145 +1,139 @@
-/* Colores */
-
-body{
-	color:#000; /* Cuerpo de texto */
-	background:#F0F0F0; /* Color de fondo */
-}
-
-#content{
-	border-color:#ADADAD; /* Border del contenedor principal */
-	background:#ffffff; /* Color de fondo del contenedor principal */
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); /* Sombra */
-}
-
-.pagination{
-	border-color:#ADADAD; /* Color de borde del bloque: borde superior */
-}
-
-.pagination a{
-	background-color:#F0F0F0; /* Color de fondo de los enlaces Anterior/Siguiente */
-	color:#6A3A4A; /* Color de texto de estos enlaces */
-}
-
-.pagination a:hover{
-	background-color:#E8EDF1; /* Color de fondo de los enlaces Anterior/Siguiente al pasar sobre ellos */
-	color:#000; /* Color de texto de estos enlaces al pasar sobre ellos */
-}
-
-#topPagination .pagination, #topPagination a{ /* En esta plantilla esta paginación se encuentra oculta por defecto (busca "Invisible content" en este mismo archivo) */
-	color:#DADADA; /* Color de texto de la paginación de la cabecera */
-}
-
-#topPagination a:hover{
-	color:#FFF; /* Color de texto de estos enlaces al pasar sobre ellos */
-}
-
-#main #nodeDecoration{
-	text-shadow:none; /* Sombra del texto del título de la página */
-}
-
-#header{
-	color:#FFFFFF; /* Título del proyecto */
-	text-shadow:1px 1px 1px #466A76; /* Sombra del texto */
-}
-
-#nodeTitle{
-	color:#005F6F; /* Título de cada página */
-}
-
-#skipNav a{
-    background:#436974;
-}
-
-#siteNav a{
-	background:#f0f0f0; /* Color fondo menú */
-	color:#0F5E87; /* Enlaces del menú */
-	border-color:#ADADAD; /* Borde que separa a los enlaces */
-}
-
-#siteNav a:hover{
-	color:#6A3A4A; /* Enlaces al pasar sobre ellos */
-	background:#fff; /* Fondo de los enlaces al pasar sobre ellos */
-}
-
-#siteNav ul ul a{
-	color:#38565F; /* Menú: enlaces de segundo nivel */
-}
-
-#siteNav .active{
-	color:#6A3A4A; /* Enlace activo en el menú principal */
-	font-weight:bold; /* Peso fuente */
-	border-color:#ADADAD;  /* Borde del enlace activo */
-}
-
-#siteNav .other-section{
-	display:none; /* Eliminar si se quiere que se muestren todos los niveles */
-}
-
-/* Otras definiciones */
+/* eXeLearning Style Designer Compatible Style */
 body{padding:0;text-align:center}
-#content{width:985px;margin:0 auto 25px auto;padding-bottom:10px;text-align:left;position:relative;border-style:solid;border-width:1px;border-top:0;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
-#main-wrapper{padding:10px 20px 0 250px}
-#main{width:100%}
-#header,#emptyHeader{height:40px;background:url(my_header.jpg) no-repeat 0 0;padding:69px 20px 0 314px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-#nodeTitle{font-size:1.6em;margin:10px 10px 0 0}
-#main #nodeDecoration{background:none;padding:0;border:none}
-#siteNav{width:230px;float:left;padding-right:20px;padding-bottom:59px;background:url(my_nav_bg.jpg) no-repeat 0 bottom}
-* html #siteNav{width:250px} /* IE6 */
-#siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
-#siteNav a{display:block;padding:4px 0 4px 10px;border-width:0 0 1px 0;border-style:dotted}
-* html #siteNav a{display:inline-block;width:100%} /* IE6 */
-#siteNav .main-node{font-weight:bold;font-variant:small-caps;letter-spacing:1px;font-size:1.1em}
-#siteNav a.main-node:hover{text-decoration:underline;background:none}
-#siteNav ul ul a{padding-left:25px;font-size:.95em}
-#siteNav ul ul ul a{font-size:1em;padding-left:50px}
-#siteFooter{padding:5px 0 10px 250px}
-.pagination{border-style:dotted;border-width:1px 0 0 0;padding-top:10px;text-align:right}
-.pagination .sep{display:none}
-.pagination a{padding:3px 5px;border-radius:5px;margin-left:20px}
-.pagination a:hover{text-decoration:none}
-#topPagination{position:absolute;top:7px;right:20px}
-#topPagination .pagination{border:none}
-#topPagination a{padding:0 5px;background:none}
-#topPagination a:hover{text-decoration:underline}
-#bottomPagination{padding:0 20px 10px 250px}
-#bottomPagination .pagination{padding-top:20px}
-#bottomPagination .page-counter{margin-left:20px;margin-right:0}
-.iDeviceTitle{vertical-align:top}
-/* Autoclear */
-#content:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0} 
-#content{display:inline-block}
-html[xmlns] #content{display:block}
-* html #content{height: 1%;overflow:visible}
+#content{width:100%;margin:0 auto;text-align:left;position:relative;border-style:solid;border-width:0}
+#main-wrapper{padding-bottom:1.5em;width:100%;*width:auto}/* * is for IE6 and IE7 */
+#main{padding:20px 40px 30px 320px;height:auto!important;height:200px;min-height:200px;*padding-left:0}
 
-/* No menu */
-.no-nav #main-wrapper,.no-nav #bottomPagination,.no-nav #siteFooter{padding-left:20px}
-.no-nav #content{background-image:none}
+.no-nav #main-wrapper{width:100%}
+.no-nav #main{padding:20px 20px 0 20px}
+
+#header,#emptyHeader{border-top-width:0;border-right-width:0;border-left-width:0}
+#headerContent{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;min-height:1.1em}
+#nodeDecoration{background:none;padding:0;border:none;margin:20px 0;height:auto;min-height:0}
+#nodeTitle{font-weight:300}
+.iDevice_wrapper{margin-top:-10px}
+
+/* Menú */
+#siteNav{width:280px;float:left;margin-right:40px}
+#siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
+#siteNav .other-section{display:none}
+#siteNav a{display:block;padding:8px 10px 8px 20px;border-width:0 0 1px 0;border-style:solid}
+#siteNav .active{font-weight:bold;text-decoration:underline}
+#siteNav ul ul a{padding-left:35px;font-size:.95em}
+#siteNav ul ul ul a{padding-left:60px}
+#siteNav .daddy span{display:none}
 
 /* IE6 */
-* html #main{width:auto}
-* html #siteNav a{width:219px}
-* html #siteNav ul ul a{width:204px}
-* html #siteNav ul ul ul a{width:179px}
+* html #siteNav a{display:inline-block;width:250px}
+* html #siteNav ul ul a{width:235px}
+* html #siteNav ul ul ul a{width:190px}
+* html #main{padding:20px 20px 0 0}
 
-/* Responsive design */
-@media all and (max-width: 1020px) {
-	#content{width:100%;margin:0 auto;border:none;border-radius:0;box-shadow:none}
+#siteFooter{padding:0 20px 20px 20px;border:0}
+/* Pagination */
+.pagination{text-align:right;border-top:1px solid;font-size:.95em;padding:20px 0}
+.pagination .sep{display:none}
+.pagination a{display:inline-block;padding:5px 10px;border-radius:5px;margin-left:20px}
+.pagination a:hover,.pagination a:focus{text-decoration:none}
+#topPagination{position:absolute;top:0;right:20px}
+#topPagination .pagination{border:none}
+#bottomPagination{clear:both}
+#bottomPagination a{margin:0 20px 0 0}
+.page-counter{padding:5px 0;display:inline-block}
+
+/* Autoclear */
+#content{overflow:auto}
+
+/* Hide/Show/Skip navigation */
+#nav-toggler{margin:0;position:absolute;top:20px;left:20px;font-size:.95em}
+#nav-toggler a,#skipNav a{padding:5px 10px;border-radius:5px}
+#nav-toggler a{display:block}
+#nav-toggler a:hover{text-decoration:none}
+#skipNav{z-index:100px;padding-top:15px;text-align:center}
+
+@media screen and (max-width: 980px) {
+	.exe-web-site #content{width:100%;border:0;box-shadow:none}
+	#main{padding:20px 30px 0 280px}
+	#siteNav{width:250px;margin-right:30px}
 }
 
-@media all and (max-width: 780px) {
-	#header,#emptyHeader{background-position:-294px 0;padding:69px 10px 0 10px;font-size:1.3em}
-	#siteNav{width:100%;float:none;padding:0;background-image:none}
-	#siteNav .main-node{font-weight:normal;font-variant:normal;letter-spacing:0;font-size:1em}
-	#main-wrapper,.no-nav #main-wrapper{padding:10px 10px 0 10px}
-	#siteFooter,.no-nav #siteFooter{padding:10px;text-align:center}
-	.pagination{font-weight:bold;font-size:1.1em}
-	#topPagination{position:relative;top:auto;width:100%;right:auto;padding:0}
-	#topPagination .pagination{padding:0;text-align:center;background:#4B737F;border-bottom:1px dotted #ADADAD}
-	.no-nav #topPagination .pagination{border-top:1px solid #fff}
-	#topPagination .prev,#topPagination .next,#topPagination .page-counter{display:none}
-	#bottomPagination,.no-nav #bottomPagination{position:relative;padding:0 10px 10px 10px}
-	#bottomPagination a{padding:3px 10px;display:inline-block}
-	#bottomPagination .prev{position:absolute;left:10px;margin-left:0}
-	#bottomPagination .page-counter{position:absolute;width:50%;left:25%;text-align:center;margin:0;font-weight:normal;padding-top:3px}
-	#nav-toggler a,#nav-toggler a:focus{display:inline-block;padding:4px;width:80%;color:#fff;font-variant:small-caps;letter-spacing:1px;outline:none;text-decoration:none}
+@media all and (max-width: 700px) {
+	#headerContent{font-size:.7em;white-space:normal}
+	#topPagination{display:none}
+	#siteNav{float:none;width:100%;padding:0}
+	#siteNav{line-height:1.5em;margin-bottom:15px}
+	#main-wrapper{width:100%;float:none}    
+	#main,.no-nav #main{padding:10px 20px 0 20px}    
+	#content .exe-col{float:none;width:100%;padding:0}
+	.pagination{text-align:center;height:35px;position:relative}
+	.pagination .prev{position:absolute;left:20px}
+	.pagination .next{position:absolute;right:0}
+	#nav-toggler{position:relative;top:0;left:0;margin:20px 19px;text-align:center}
+	#nav-toggler a{width:100%;display:block;padding:8px 0}
+	#siteNav{border-top:1px solid}
+}
+
+@media print{
+	#siteNav,#nav-toggler,.noprt,.toggle-idevice{display:none}
+	body #main,body.no-nav #main{padding:20px 0}
+	body #content{background:#FFF}
+	#headerContent{white-space:normal;text-overflow:normal;font-weight:bold}
+}
+
+/* eXeLearning Style Designer */
+#content{
+/*contentBGColor*/
+background-color:#f9f9f9;
+}
+.pagination a,#nav-toggler a,#skipNav a{
+/*nav2BGColor*/
+background-color:#333333;
+/*nav2AColor*/
+color:#ffffff;
+}
+.pagination a:hover,.pagination a:focus,#nav-toggler a:hover{
+/*nav2HoverBGColor*/
+background-color:#555555;
+}
+body{
+/*bodyBGColor*/
+background-color:#ffffff;
+}
+#siteNav,#siteNav a{
+/*navBGColor*/
+background-color:#f9f9f9;
+/*navAColor*/
+color:#555555;
+/*navBorderColor*/
+border-color:#dddddd;
+}
+@media screen and (min-width: 701px) and (max-width: 1015px){
+#siteNav,#siteNav ul{
+background-color:#f9f9f9;border-color:#dddddd;
+}
+#siteNav li{
+background-color:#f9f9f9;
+}
+}
+@media all and (max-width: 700px){
+.js #siteNav{
+border-top:1px solid #dddddd;
+}
+}
+#siteNav a:hover,#siteNav a:focus{
+/*navHoverBGColor*/
+background-color:#ffffff;
+/*navAHoverColor*/
+color:#000000;
+}
+@media screen and (min-width: 701px) and (max-width: 1015px){
+#siteNav li:hover,#siteNav li.sfhover{
+background-color:#ffffff;
+}
+}
+.pagination{
+border-color:#dddddd;
+}
+#bottomPagination{
+background-color:#ffffff;
 }
